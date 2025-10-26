@@ -1,0 +1,42 @@
+/* Basic Layout */
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  margin: 2rem;
+  padding: 0;
+  line-height: 1.6;
+  color: #222;
+  background-color: #fafafa;
+  padding: 2rem 1.5rem;
+  font-size: 12px;
+}
+
+/* Headings */
+h1 {
+  color: #1a4b84;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+*/ Paragraphs */ p {
+  font-size: 1.1rem;
+  max-width: 650px;
+  margin-bottom: 1.5rem;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.accent {
+  color: #d45555;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #1a4b84;
+}
+a:hover {
+  text-decoration: underline;
+}
