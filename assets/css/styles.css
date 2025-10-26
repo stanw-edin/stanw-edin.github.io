@@ -1,6 +1,6 @@
 /* Basic Layout */
 body {
-  font-family: "Inter", system-ui, sans-serif;
+  font-family: system-ui, sans-serif;
   margin: 2rem;
   padding: 0;
   line-height: 1.6;
@@ -13,14 +13,27 @@ body {
 /* Headings */
 h1 {
   color: #1a4b84;
+  margin-top: 1rem;
   margin-bottom: 0.75rem;
   font-weight: 600;
 }
 
-*/ Paragraphs */ p {
+/* Paragraphs */
+p {
   font-size: 1.1rem;
   max-width: 650px;
   margin-bottom: 1.5rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+p + p {
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+h + p {
+  margin-top: 1rem;
 }
 
 .container {
